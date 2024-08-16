@@ -1,0 +1,12 @@
+name: Hello World Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: Run hello.sh
+      run: ./hello.sh
