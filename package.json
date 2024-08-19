@@ -1,0 +1,21 @@
+{
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "description": "Example of how to setup a ci-cd pipeline using github actions",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Building the project...\"",
+    "test": "echo \"Running tests...\" && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinhood-me/ci-cd-demo.git"
+  },
+  "keywords": [],
+  "author": "Robin Hood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinhood-me/ci-cd-demo/issues"
+  },
+  "homepage": "https://github.com/robinhood-me/ci-cd-demo#readme"
+}
