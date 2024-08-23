@@ -1,3 +1,4 @@
+#Gitlab workflow file, aka Gitlab CI/CD pipeline
 name: Advanced CI Pipeline
 
 on: [push, pull_request]
