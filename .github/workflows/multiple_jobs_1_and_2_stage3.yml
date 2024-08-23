@@ -1,0 +1,24 @@
+name: Multiple Jobs Example
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  job1:
+    runs-on: Ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run tests
+        run: echo "Running tests for Job1
+
+  job2:
+    runs-on: Ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build project
+        run: echo "Building project for job2"
